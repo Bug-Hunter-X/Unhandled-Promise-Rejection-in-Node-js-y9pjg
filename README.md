@@ -1,0 +1,1 @@
+This repository contains a Node.js example demonstrating an unhandled promise rejection error and its solution. The bug occurs when a promise is rejected, and there's no error handler to catch the rejection. The solution involves adding a `.catch()` block to the promise chain or using a top-level `unhandledRejection` event listener.
